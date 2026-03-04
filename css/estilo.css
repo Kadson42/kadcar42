@@ -1,0 +1,60 @@
+body {
+    background-color: rgb(216, 220, 218);
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.principal {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+
+
+}
+
+.carro {
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    background-color: black;
+    color: white;
+}
+
+
+
+.carro img {
+    width: 100%;
+    height: auto;
+
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(70, 70, 73);
+    border: 1px solid black;
+    color: white;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    text-align: justify;
+    padding: 10px;
+    margin: 10px;
+}
+
+#rodape,
+p {
+    background-color: rgb(70, 70, 73);
+    color: white;
+    text-align: center;
+    padding: 10px;
+
+}
